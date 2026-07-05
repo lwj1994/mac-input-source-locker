@@ -45,7 +45,7 @@ enum L10n {
     }
 
     private static func tr(_ key: String, _ arguments: CVarArg...) -> String {
-        let format = Bundle.module.localizedString(forKey: key, value: key, table: nil)
+        let format = AppResourceBundle.current.localizedString(forKey: key, value: key, table: nil)
         return String(format: format, locale: Locale.current, arguments: arguments)
     }
 }

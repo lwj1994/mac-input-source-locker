@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple TF Upload"
+  short_description: "Build and upload Apple apps to TestFlight"
+  default_prompt: "Use $apple-tf-upload to prepare, archive, and upload this Apple app build to TestFlight."

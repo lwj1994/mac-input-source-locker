@@ -1,5 +1,5 @@
 import XCTest
-@testable import MacInputSourceLockerCore
+import MacInputSourceLockerCore
 
 final class SettingsStoreTests: XCTestCase {
     func testLockDefaultsToEnabled() {

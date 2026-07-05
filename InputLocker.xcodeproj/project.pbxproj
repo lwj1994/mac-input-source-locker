@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABE1A0B4B3A39141FC57669 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600625E8A9883C6AA929A89 /* StatusMenuController.swift */; };
+		23AC835901C41926A585DFF9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADBFBF96E57CF1376F6301 /* Cocoa.framework */; };
+		43038E08F25EAA092F9AD036 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2AD29472A7513061A9749 /* SettingsStore.swift */; };
+		46E8E0B8B0CCF6C9F9442FC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E56EC2AADB2B6E8E8F965A1B /* Localizable.strings */; };
+		4D333935B376A634C98AE5A9 /* libMacInputSourceLockerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563A872655D714DA95B8F3A /* libMacInputSourceLockerCore.a */; };
+		4F3A6BD85D2410374E5C5880 /* InputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876C9434AC90E0E41AD13A1 /* InputSource.swift */; };
+		52FFBFE827FEAE68CB1225C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB9D282EAA35FC08B7E7C5 /* main.swift */; };
+		54528D5DCAEEE3B09726CBCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADBFBF96E57CF1376F6301 /* Cocoa.framework */; };
+		5B9A32586809858340549729 /* InputLockerLegacy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2878B55BBD7929FF6C193E0D /* InputLockerLegacy.icns */; };
+		5E2008F9FB555D9AFDF82864 /* InputLockerStatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3E1CF00115757FFFD4CE3 /* InputLockerStatusIcon.png */; };
+		6FEBA64197DF19494EF746F5 /* LockDashboardMenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC35C92E20365F788164C7A /* LockDashboardMenuContent.swift */; };
+		75CF47B3E85291A1DB1BE702 /* InputLocker.icns in Resources */ = {isa = PBXBuildFile; fileRef = E3DD0ED5840DD1377F1EB3E2 /* InputLocker.icns */; };
+		7D92B4EC8D3E3D9FAA249706 /* SettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6E3E9BC38AB823C11C7B2 /* SettingsStoreTests.swift */; };
+		82B546C2E41B41BBA0F5B813 /* InputSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB118FF6ED044B5C20C8143 /* InputSourceManager.swift */; };
+		8359BB0B22A1A2D244E57D26 /* libMacInputSourceLockerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563A872655D714DA95B8F3A /* libMacInputSourceLockerCore.a */; };
+		EE9D417AA3E3D44F8C455FAE /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC557E0F11A5F326267A3D3 /* L10n.swift */; };
+		F2A91843666D120319A1B2F6 /* AppResourceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2AAE0433C5D913FAFCAFB /* AppResourceBundle.swift */; };
+		F43302B0368D5A29D84F7032 /* InputSourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F529300C03CE4D71C3C4F /* InputSourceManagerTests.swift */; };
+		F48F325420E2E7C335881860 /* InputSourceEnforcer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB4368AEFBD44BB745856B /* InputSourceEnforcer.swift */; };
+		FA1AF878EF63634685D6757E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57174AB2C2DF33A4C8CAD1A1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133A4074489BB9814989BE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F90306D3E6EBB3A52E0B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DABBE9DEAF50148907FE0E1;
+			remoteInfo = MacInputSourceLockerCore;
+		};
+		FFD0631E0509B5612FC25148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F90306D3E6EBB3A52E0B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DABBE9DEAF50148907FE0E1;
+			remoteInfo = MacInputSourceLockerCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD6E3E9BC38AB823C11C7B2 /* SettingsStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsStoreTests.swift; sourceTree = "<group>"; };
+		0BC557E0F11A5F326267A3D3 /* L10n.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		258A470AE34615CD6FEAA64D /* MacInputSourceLockerCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacInputSourceLockerCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2600625E8A9883C6AA929A89 /* StatusMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		2878B55BBD7929FF6C193E0D /* InputLockerLegacy.icns */ = {isa = PBXFileReference; includeInIndex = 1; path = InputLockerLegacy.icns; sourceTree = "<group>"; };
+		3EC35C92E20365F788164C7A /* LockDashboardMenuContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LockDashboardMenuContent.swift; sourceTree = "<group>"; };
+		5563A872655D714DA95B8F3A /* libMacInputSourceLockerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMacInputSourceLockerCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57174AB2C2DF33A4C8CAD1A1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED2AAE0433C5D913FAFCAFB /* AppResourceBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppResourceBundle.swift; sourceTree = "<group>"; };
+		5EF3E1CF00115757FFFD4CE3 /* InputLockerStatusIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = InputLockerStatusIcon.png; sourceTree = "<group>"; };
+		664A7C9300B9ABC063A1C9ED /* InputLocker-Xcode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InputLocker-Xcode-Info.plist"; sourceTree = "<group>"; };
+		66A2AD29472A7513061A9749 /* SettingsStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		6BBB4368AEFBD44BB745856B /* InputSourceEnforcer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputSourceEnforcer.swift; sourceTree = "<group>"; };
+		8B59B9B3FF7D3E2588A4E34C /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E03D39C9623BB7888153C28 /* InputLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InputLocker-Info.plist"; sourceTree = "<group>"; };
+		A28F529300C03CE4D71C3C4F /* InputSourceManagerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputSourceManagerTests.swift; sourceTree = "<group>"; };
+		ABB118FF6ED044B5C20C8143 /* InputSourceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputSourceManager.swift; sourceTree = "<group>"; };
+		AE167EEB988A8D2F96A55565 /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B876C9434AC90E0E41AD13A1 /* InputSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputSource.swift; sourceTree = "<group>"; };
+		CAB03FA56B403FD4863CEC99 /* InputLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6A0E106F7D0F582A01E1A /* InputLocker.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = InputLocker.entitlements; sourceTree = "<group>"; };
+		D5ADBFBF96E57CF1376F6301 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DB0022DA53EADD2B0895F993 /* ko */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCED1F7F2E0631120E9D84D4 /* zh-Hant */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E3DD0ED5840DD1377F1EB3E2 /* InputLocker.icns */ = {isa = PBXFileReference; includeInIndex = 1; path = InputLocker.icns; sourceTree = "<group>"; };
+		E6AFB92EFF0F7C9DA28ED43D /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F4EB9D282EAA35FC08B7E7C5 /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00ADCBAED288DC8555A6C900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54528D5DCAEEE3B09726CBCF /* Cocoa.framework in Frameworks */,
+				8359BB0B22A1A2D244E57D26 /* libMacInputSourceLockerCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A987EEC8992CC4C59D1DFD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7899DE469C72CCAA518044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AC835901C41926A585DFF9 /* Cocoa.framework in Frameworks */,
+				4D333935B376A634C98AE5A9 /* libMacInputSourceLockerCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B715422B19A7ABB46C4394 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C167FD868071E80DB8067B2F /* InputLocker */,
+				D5DD11741196DC11D2808E46 /* MacInputSourceLockerCore */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4586E2479FBEB1CE8DFCE6AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B74DF5EF7264E18FB679CE1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ADBC2C6D7949E31D40D8D54 /* MacInputSourceLockerCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28F529300C03CE4D71C3C4F /* InputSourceManagerTests.swift */,
+				0AD6E3E9BC38AB823C11C7B2 /* SettingsStoreTests.swift */,
+			);
+			name = MacInputSourceLockerCoreTests;
+			path = MacInputSourceLockerCoreTests;
+			sourceTree = "<group>";
+		};
+		4C69BEF15D41B219E1055E7F = {
+			isa = PBXGroup;
+			children = (
+				DF308AD5642D350ECDE05BF0 /* Products */,
+				4586E2479FBEB1CE8DFCE6AA /* Frameworks */,
+				31B715422B19A7ABB46C4394 /* Sources */,
+				9DB3E8C0C61D920BBC3111E0 /* Tests */,
+				97FBEFD83B7C01A32D8893C3 /* Packaging */,
+			);
+			sourceTree = "<group>";
+		};
+		8B74DF5EF7264E18FB679CE1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADBFBF96E57CF1376F6301 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		97FBEFD83B7C01A32D8893C3 /* Packaging */ = {
+			isa = PBXGroup;
+			children = (
+				E3DD0ED5840DD1377F1EB3E2 /* InputLocker.icns */,
+				2878B55BBD7929FF6C193E0D /* InputLockerLegacy.icns */,
+				664A7C9300B9ABC063A1C9ED /* InputLocker-Xcode-Info.plist */,
+				8E03D39C9623BB7888153C28 /* InputLocker-Info.plist */,
+				CEA6A0E106F7D0F582A01E1A /* InputLocker.entitlements */,
+				57174AB2C2DF33A4C8CAD1A1 /* Assets.xcassets */,
+			);
+			name = Packaging;
+			path = Packaging;
+			sourceTree = "<group>";
+		};
+		9DB3E8C0C61D920BBC3111E0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADBC2C6D7949E31D40D8D54 /* MacInputSourceLockerCoreTests */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C167FD868071E80DB8067B2F /* InputLocker */ = {
+			isa = PBXGroup;
+			children = (
+				D67825D33935D62C3F71E05E /* Resources */,
+				5ED2AAE0433C5D913FAFCAFB /* AppResourceBundle.swift */,
+				6BBB4368AEFBD44BB745856B /* InputSourceEnforcer.swift */,
+				0BC557E0F11A5F326267A3D3 /* L10n.swift */,
+				3EC35C92E20365F788164C7A /* LockDashboardMenuContent.swift */,
+				2600625E8A9883C6AA929A89 /* StatusMenuController.swift */,
+				F4EB9D282EAA35FC08B7E7C5 /* main.swift */,
+			);
+			name = InputLocker;
+			path = InputLocker;
+			sourceTree = "<group>";
+		};
+		D5DD11741196DC11D2808E46 /* MacInputSourceLockerCore */ = {
+			isa = PBXGroup;
+			children = (
+				B876C9434AC90E0E41AD13A1 /* InputSource.swift */,
+				ABB118FF6ED044B5C20C8143 /* InputSourceManager.swift */,
+				66A2AD29472A7513061A9749 /* SettingsStore.swift */,
+			);
+			name = MacInputSourceLockerCore;
+			path = MacInputSourceLockerCore;
+			sourceTree = "<group>";
+		};
+		D67825D33935D62C3F71E05E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3E1CF00115757FFFD4CE3 /* InputLockerStatusIcon.png */,
+				E56EC2AADB2B6E8E8F965A1B /* Localizable.strings */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF308AD5642D350ECDE05BF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5563A872655D714DA95B8F3A /* libMacInputSourceLockerCore.a */,
+				CAB03FA56B403FD4863CEC99 /* InputLocker.app */,
+				258A470AE34615CD6FEAA64D /* MacInputSourceLockerCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABFB8C81F47FF27205B5628B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38C1B501D64A984E3BD78933 /* InputLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7059F1C5747DB7DE54FA1CA9 /* Build configuration list for PBXNativeTarget "InputLocker" */;
+			buildPhases = (
+				762471DAD7B8F89C2EFCFDFD /* Sources */,
+				00ADCBAED288DC8555A6C900 /* Frameworks */,
+				DE801E1C438A30B845AE6D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE91B2F8561949CC45481D4 /* PBXTargetDependency */,
+			);
+			name = InputLocker;
+			productName = InputLocker;
+			productReference = CAB03FA56B403FD4863CEC99 /* InputLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DABBE9DEAF50148907FE0E1 /* MacInputSourceLockerCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E54DBD50321E86B885645F /* Build configuration list for PBXNativeTarget "MacInputSourceLockerCore" */;
+			buildPhases = (
+				ABFB8C81F47FF27205B5628B /* Headers */,
+				07B6BA191BDB6BCDF4ABC2B1 /* Sources */,
+				A987EEC8992CC4C59D1DFD46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacInputSourceLockerCore;
+			productName = MacInputSourceLockerCore;
+			productReference = 5563A872655D714DA95B8F3A /* libMacInputSourceLockerCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3F1B4BB18038B40576CE152 /* MacInputSourceLockerCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18385008AE6EDB5A2AA7B830 /* Build configuration list for PBXNativeTarget "MacInputSourceLockerCoreTests" */;
+			buildPhases = (
+				65A2EC82DE6A7210AC62A671 /* Sources */,
+				EE7899DE469C72CCAA518044 /* Frameworks */,
+				142A004F2F533D41A127F9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF165F3BF06BFC94A22D6BDA /* PBXTargetDependency */,
+			);
+			name = MacInputSourceLockerCoreTests;
+			productName = MacInputSourceLockerCoreTests;
+			productReference = 258A470AE34615CD6FEAA64D /* MacInputSourceLockerCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1F90306D3E6EBB3A52E0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				ORGANIZATIONNAME = Milu;
+			};
+			buildConfigurationList = A8EEE67DD84919A5D4A7CEA8 /* Build configuration list for PBXProject "InputLocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C69BEF15D41B219E1055E7F;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DF308AD5642D350ECDE05BF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DABBE9DEAF50148907FE0E1 /* MacInputSourceLockerCore */,
+				38C1B501D64A984E3BD78933 /* InputLocker */,
+				E3F1B4BB18038B40576CE152 /* MacInputSourceLockerCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142A004F2F533D41A127F9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE801E1C438A30B845AE6D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2008F9FB555D9AFDF82864 /* InputLockerStatusIcon.png in Resources */,
+				46E8E0B8B0CCF6C9F9442FC7 /* Localizable.strings in Resources */,
+				75CF47B3E85291A1DB1BE702 /* InputLocker.icns in Resources */,
+				5B9A32586809858340549729 /* InputLockerLegacy.icns in Resources */,
+				FA1AF878EF63634685D6757E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B6BA191BDB6BCDF4ABC2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3A6BD85D2410374E5C5880 /* InputSource.swift in Sources */,
+				82B546C2E41B41BBA0F5B813 /* InputSourceManager.swift in Sources */,
+				43038E08F25EAA092F9AD036 /* SettingsStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A2EC82DE6A7210AC62A671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43302B0368D5A29D84F7032 /* InputSourceManagerTests.swift in Sources */,
+				7D92B4EC8D3E3D9FAA249706 /* SettingsStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762471DAD7B8F89C2EFCFDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A91843666D120319A1B2F6 /* AppResourceBundle.swift in Sources */,
+				F48F325420E2E7C335881860 /* InputSourceEnforcer.swift in Sources */,
+				EE9D417AA3E3D44F8C455FAE /* L10n.swift in Sources */,
+				6FEBA64197DF19494EF746F5 /* LockDashboardMenuContent.swift in Sources */,
+				0ABE1A0B4B3A39141FC57669 /* StatusMenuController.swift in Sources */,
+				52FFBFE827FEAE68CB1225C6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF165F3BF06BFC94A22D6BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MacInputSourceLockerCore;
+			target = 3DABBE9DEAF50148907FE0E1 /* MacInputSourceLockerCore */;
+			targetProxy = 133A4074489BB9814989BE89 /* PBXContainerItemProxy */;
+		};
+		DDE91B2F8561949CC45481D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MacInputSourceLockerCore;
+			target = 3DABBE9DEAF50148907FE0E1 /* MacInputSourceLockerCore */;
+			targetProxy = FFD0631E0509B5612FC25148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E56EC2AADB2B6E8E8F965A1B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B59B9B3FF7D3E2588A4E34C /* en */,
+				AE167EEB988A8D2F96A55565 /* ja */,
+				DB0022DA53EADD2B0895F993 /* ko */,
+				E6AFB92EFF0F7C9DA28ED43D /* zh-Hans */,
+				DCED1F7F2E0631120E9D84D4 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C42AF95C70E58E671CB3646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Packaging/InputLocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Packaging/InputLocker-Xcode-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milu.inputlocker;
+				PRODUCT_NAME = InputLocker;
+				SDKROOT = macosx;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A5C9E94AB1562ECCADA33D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Packaging/InputLocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Packaging/InputLocker-Xcode-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milu.inputlocker;
+				PRODUCT_NAME = InputLocker;
+				SDKROOT = macosx;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		87B802BB040212D20AF0358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9AAA7F5ECC7AAA5635CDF11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milu.inputlocker.tests;
+				PRODUCT_NAME = MacInputSourceLockerCoreTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		9BD83F6D4A03D4C5CBE96634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MacInputSourceLockerCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A89F77D431B241CCF0999AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milu.inputlocker.tests;
+				PRODUCT_NAME = MacInputSourceLockerCoreTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		C92E12E92C0F72B1E55C3AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MacInputSourceLockerCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4519B71A6464457DE3646DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18385008AE6EDB5A2AA7B830 /* Build configuration list for PBXNativeTarget "MacInputSourceLockerCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAA7F5ECC7AAA5635CDF11D /* Release */,
+				A89F77D431B241CCF0999AB4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E54DBD50321E86B885645F /* Build configuration list for PBXNativeTarget "MacInputSourceLockerCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92E12E92C0F72B1E55C3AE8 /* Release */,
+				9BD83F6D4A03D4C5CBE96634 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7059F1C5747DB7DE54FA1CA9 /* Build configuration list for PBXNativeTarget "InputLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C9E94AB1562ECCADA33D5 /* Release */,
+				5C42AF95C70E58E671CB3646 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EEE67DD84919A5D4A7CEA8 /* Build configuration list for PBXProject "InputLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B802BB040212D20AF0358F /* Debug */,
+				D4519B71A6464457DE3646DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C1F90306D3E6EBB3A52E0B9 /* Project object */;
+}

@@ -142,7 +142,7 @@ final class StatusMenuController: NSObject, NSMenuDelegate {
     }
 
     private func statusIcon() -> NSImage? {
-        guard let image = Bundle.module.url(forResource: "InputLockerStatusIcon", withExtension: "png")
+        guard let image = AppResourceBundle.current.url(forResource: "InputLockerStatusIcon", withExtension: "png")
             .flatMap(NSImage.init(contentsOf:))
         else {
             let fallback = NSImage(systemSymbolName: "keyboard", accessibilityDescription: nil)

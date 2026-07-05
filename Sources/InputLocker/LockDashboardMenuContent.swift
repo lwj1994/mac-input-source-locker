@@ -23,7 +23,7 @@ struct LockDashboardMenuContent: View {
     }
 
     private var statusIconImage: NSImage? {
-        Bundle.module.url(forResource: "InputLockerStatusIcon", withExtension: "png")
+        AppResourceBundle.current.url(forResource: "InputLockerStatusIcon", withExtension: "png")
             .flatMap(NSImage.init(contentsOf:))
     }
 
