@@ -1,6 +1,7 @@
 .build/
 .swiftpm/
 DerivedData/
+dist/
 build/tf-upload/
 .tf-upload.env
 Profiles/*.mobileprovision
