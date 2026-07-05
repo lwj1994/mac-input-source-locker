@@ -8,6 +8,10 @@ InputLocker 是一个轻量的 macOS 菜单栏工具，用来把键盘输入法�
 
 ![InputLocker 菜单概览](Packaging/AppStoreScreenshots/InputLocker-preview-1-menu-overview.png)
 
+## 下载
+
+[在 Mac App Store 下载](https://apps.apple.com/app/id6787651715)
+
 ## 功能
 
 - 在菜单栏里选择目标键盘输入法。

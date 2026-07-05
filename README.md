@@ -8,6 +8,10 @@ It uses macOS Text Input Source Services, not private APIs. The lock is practica
 
 ![InputLocker menu overview](Packaging/AppStoreScreenshots/InputLocker-preview-1-menu-overview.png)
 
+## Download
+
+[Download on the Mac App Store](https://apps.apple.com/app/id6787651715)
+
 ## Features
 
 - Select a target keyboard input source from the menu bar.
