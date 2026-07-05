@@ -1,0 +1,31 @@
+"dashboard.notEnabled" = "Off";
+"dashboard.status.locked" = "Locked";
+"dashboard.status.paused" = "Paused";
+"dashboard.row.globalLock" = "Global Lock";
+"dashboard.row.currentApp" = "Current App";
+"dashboard.targetUnset" = "Not set";
+"dashboard.unavailable" = "Unavailable";
+
+"menu.noTarget" = "No target";
+"menu.pauseLock" = "Pause Lock";
+"menu.enableLock" = "Enable Lock";
+"menu.openKeyboardSettings" = "Open Keyboard Settings";
+"menu.quit" = "Quit";
+"menu.noSelectableInputSources" = "No selectable input sources";
+
+"status.tooltip.locked" = "InputLocker: %@";
+"status.tooltip.paused" = "InputLocker: paused";
+
+"enforcer.ready" = "Ready";
+"enforcer.started" = "Started";
+"enforcer.lockEnabled" = "Lock enabled";
+"enforcer.lockPaused" = "Lock paused";
+"enforcer.manualApply" = "Manual apply";
+"enforcer.noTargetInputSource" = "No target input source";
+"enforcer.currentInputSourceUnavailable" = "Current input source unavailable";
+"enforcer.lockedTo" = "Locked to %@";
+"enforcer.changed" = "%@: %@ -> %@";
+"enforcer.periodicCheck" = "Periodic check";
+"enforcer.appSwitched" = "App switched";
+"enforcer.focusSettled" = "Focus settled";
+"enforcer.targetChanged" = "Target changed";

@@ -1,0 +1,31 @@
+"dashboard.notEnabled" = "オフ";
+"dashboard.status.locked" = "ロック中";
+"dashboard.status.paused" = "一時停止";
+"dashboard.row.globalLock" = "グローバルロック";
+"dashboard.row.currentApp" = "現在のApp";
+"dashboard.targetUnset" = "未設定";
+"dashboard.unavailable" = "使用不可";
+
+"menu.noTarget" = "対象なし";
+"menu.pauseLock" = "ロックを一時停止";
+"menu.enableLock" = "ロックを有効化";
+"menu.openKeyboardSettings" = "キーボード設定を開く";
+"menu.quit" = "終了";
+"menu.noSelectableInputSources" = "選択可能な入力ソースがありません";
+
+"status.tooltip.locked" = "InputLocker: %@";
+"status.tooltip.paused" = "InputLocker: 一時停止中";
+
+"enforcer.ready" = "準備完了";
+"enforcer.started" = "起動しました";
+"enforcer.lockEnabled" = "ロックを有効化しました";
+"enforcer.lockPaused" = "ロックを一時停止しました";
+"enforcer.manualApply" = "手動適用";
+"enforcer.noTargetInputSource" = "対象の入力ソースがありません";
+"enforcer.currentInputSourceUnavailable" = "現在の入力ソースを取得できません";
+"enforcer.lockedTo" = "%@ にロック中";
+"enforcer.changed" = "%@: %@ -> %@";
+"enforcer.periodicCheck" = "定期チェック";
+"enforcer.appSwitched" = "Appを切り替えました";
+"enforcer.focusSettled" = "フォーカス安定後";
+"enforcer.targetChanged" = "対象を変更しました";

@@ -1,0 +1,31 @@
+"dashboard.notEnabled" = "未开启";
+"dashboard.status.locked" = "锁定中";
+"dashboard.status.paused" = "暂停";
+"dashboard.row.globalLock" = "全局锁定";
+"dashboard.row.currentApp" = "当前 App";
+"dashboard.targetUnset" = "未设置";
+"dashboard.unavailable" = "不可用";
+
+"menu.noTarget" = "无目标";
+"menu.pauseLock" = "暂停锁定";
+"menu.enableLock" = "开启锁定";
+"menu.openKeyboardSettings" = "打开键盘设置";
+"menu.quit" = "退出";
+"menu.noSelectableInputSources" = "没有可选输入法";
+
+"status.tooltip.locked" = "InputLocker：%@";
+"status.tooltip.paused" = "InputLocker：已暂停";
+
+"enforcer.ready" = "就绪";
+"enforcer.started" = "已启动";
+"enforcer.lockEnabled" = "锁定已开启";
+"enforcer.lockPaused" = "锁定已暂停";
+"enforcer.manualApply" = "手动执行";
+"enforcer.noTargetInputSource" = "没有目标输入法";
+"enforcer.currentInputSourceUnavailable" = "当前输入法不可用";
+"enforcer.lockedTo" = "已锁定为 %@";
+"enforcer.changed" = "%@：%@ -> %@";
+"enforcer.periodicCheck" = "定时检查";
+"enforcer.appSwitched" = "App 已切换";
+"enforcer.focusSettled" = "焦点已稳定";
+"enforcer.targetChanged" = "目标已更改";
