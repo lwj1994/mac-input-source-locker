@@ -1,0 +1,15 @@
+{
+  "originHash" : "22f60a8b29968f6afc7e655ebdc118ad1724a96d7bd52aa2acae36d46d9d7d9a",
+  "pins" : [
+    {
+      "identity" : "apple_view_model",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lwj1994/apple_view_model.git",
+      "state" : {
+        "revision" : "ebcb38c9abf47710cf875252376f6ceefb2bb228",
+        "version" : "0.3.3"
+      }
+    }
+  ],
+  "version" : 3
+}

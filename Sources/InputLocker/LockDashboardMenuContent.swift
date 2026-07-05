@@ -6,7 +6,7 @@ struct LockDashboardMenuContent: View {
 
     let isLockEnabled: Bool
     let targetName: String
-    let currentName: String
+    let appLockName: String
     let frontmostApplicationName: String?
 
     private var statusColor: Color {
@@ -17,9 +17,8 @@ struct LockDashboardMenuContent: View {
         isLockEnabled ? targetName : L10n.dashboardNotEnabled
     }
 
-    private var currentAppInputText: String {
-        guard let frontmostApplicationName else { return currentName }
-        return "\(frontmostApplicationName) · \(currentName)"
+    private var currentAppText: String {
+        frontmostApplicationName ?? L10n.dashboardUnavailable
     }
 
     private var statusIconImage: NSImage? {
@@ -47,7 +46,8 @@ struct LockDashboardMenuContent: View {
 
             VStack(alignment: .leading, spacing: 6) {
                 row(title: L10n.dashboardGlobalLock, value: globalLockText)
-                row(title: L10n.dashboardCurrentApp, value: currentAppInputText)
+                row(title: L10n.dashboardAppLock, value: appLockName)
+                row(title: L10n.dashboardCurrentApp, value: currentAppText)
             }
         }
         .padding(.horizontal, 16)
@@ -81,7 +81,7 @@ struct LockDashboardMenuContent: View {
         HStack(alignment: .firstTextBaseline, spacing: 8) {
             Text(title)
                 .font(.caption)
-                .frame(width: 62, alignment: .leading)
+                .frame(width: 72, alignment: .leading)
                 .foregroundStyle(.secondary)
 
             Text(value)

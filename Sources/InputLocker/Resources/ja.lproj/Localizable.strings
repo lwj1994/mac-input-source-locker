@@ -2,16 +2,39 @@
 "dashboard.status.locked" = "ロック中";
 "dashboard.status.paused" = "一時停止";
 "dashboard.row.globalLock" = "グローバルロック";
+"dashboard.row.appLock" = "Appロック";
 "dashboard.row.currentApp" = "現在のApp";
 "dashboard.targetUnset" = "未設定";
 "dashboard.unavailable" = "使用不可";
+"dashboard.appLockUnset" = "グローバルを使用";
 
 "menu.noTarget" = "対象なし";
+"menu.settings" = "設定...";
 "menu.pauseLock" = "ロックを一時停止";
 "menu.enableLock" = "ロックを有効化";
+"menu.globalTarget" = "グローバル対象";
+"menu.currentAppLock" = "現在のApp: %@";
+"menu.currentAppUnavailable" = "現在のAppを取得できません";
+"menu.clearCurrentAppRule" = "現在のAppルールを削除";
 "menu.openKeyboardSettings" = "キーボード設定を開く";
 "menu.quit" = "終了";
 "menu.noSelectableInputSources" = "選択可能な入力ソースがありません";
+
+"settings.title" = "InputLocker設定";
+"settings.section.general" = "一般";
+"settings.section.currentApp" = "現在のApp";
+"settings.section.rules" = "Appルール";
+"settings.section.diagnostics" = "診断";
+"settings.lockEnabled" = "ロックを有効化";
+"settings.defaultInputSource" = "デフォルト入力ソース";
+"settings.appInputSource" = "App入力ソース";
+"settings.useGlobalTarget" = "グローバル対象を使用";
+"settings.noCurrentApp" = "制御可能な現在のAppがありません。";
+"settings.noAppRules" = "Appルールはありません。";
+"settings.exportLogs" = "ログを書き出す";
+"settings.exportingLogs" = "ログを書き出し中...";
+"settings.exportLogsDone" = "%@ に書き出しました。";
+"settings.exportLogsFailed" = "書き出しに失敗しました: %@";
 
 "status.tooltip.locked" = "InputLocker: %@";
 "status.tooltip.paused" = "InputLocker: 一時停止中";
@@ -25,7 +48,10 @@
 "enforcer.currentInputSourceUnavailable" = "現在の入力ソースを取得できません";
 "enforcer.lockedTo" = "%@ にロック中";
 "enforcer.changed" = "%@: %@ -> %@";
-"enforcer.periodicCheck" = "定期チェック";
+"enforcer.inputSourceChanged" = "入力ソースが変更されました";
 "enforcer.appSwitched" = "Appを切り替えました";
 "enforcer.focusSettled" = "フォーカス安定後";
 "enforcer.targetChanged" = "対象を変更しました";
+"enforcer.appRuleChanged" = "Appルールを変更しました";
+"enforcer.lockedToForApp" = "%@ にロック中（%@）";
+"enforcer.changedForApp" = "%@ · %@: %@ -> %@";

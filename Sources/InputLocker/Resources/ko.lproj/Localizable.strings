@@ -2,16 +2,39 @@
 "dashboard.status.locked" = "잠금 중";
 "dashboard.status.paused" = "일시 정지";
 "dashboard.row.globalLock" = "전역 잠금";
+"dashboard.row.appLock" = "앱 잠금";
 "dashboard.row.currentApp" = "현재 앱";
 "dashboard.targetUnset" = "설정 안 됨";
 "dashboard.unavailable" = "사용 불가";
+"dashboard.appLockUnset" = "전역 사용";
 
 "menu.noTarget" = "대상 없음";
+"menu.settings" = "설정...";
 "menu.pauseLock" = "잠금 일시 정지";
 "menu.enableLock" = "잠금 켜기";
+"menu.globalTarget" = "전역 대상";
+"menu.currentAppLock" = "현재 앱: %@";
+"menu.currentAppUnavailable" = "현재 앱 사용 불가";
+"menu.clearCurrentAppRule" = "현재 앱 규칙 지우기";
 "menu.openKeyboardSettings" = "키보드 설정 열기";
 "menu.quit" = "종료";
 "menu.noSelectableInputSources" = "선택 가능한 입력 소스 없음";
+
+"settings.title" = "InputLocker 설정";
+"settings.section.general" = "일반";
+"settings.section.currentApp" = "현재 앱";
+"settings.section.rules" = "앱 규칙";
+"settings.section.diagnostics" = "진단";
+"settings.lockEnabled" = "잠금 켜기";
+"settings.defaultInputSource" = "기본 입력 소스";
+"settings.appInputSource" = "앱 입력 소스";
+"settings.useGlobalTarget" = "전역 대상 사용";
+"settings.noCurrentApp" = "제어할 수 있는 현재 앱이 없습니다.";
+"settings.noAppRules" = "앱 규칙 없음.";
+"settings.exportLogs" = "로그 내보내기";
+"settings.exportingLogs" = "로그 내보내는 중...";
+"settings.exportLogsDone" = "%@에 내보냈습니다.";
+"settings.exportLogsFailed" = "내보내기 실패: %@";
 
 "status.tooltip.locked" = "InputLocker: %@";
 "status.tooltip.paused" = "InputLocker: 일시 정지됨";
@@ -25,7 +48,10 @@
 "enforcer.currentInputSourceUnavailable" = "현재 입력 소스를 사용할 수 없음";
 "enforcer.lockedTo" = "%@에 잠금됨";
 "enforcer.changed" = "%@: %@ -> %@";
-"enforcer.periodicCheck" = "주기적 확인";
+"enforcer.inputSourceChanged" = "입력 소스 변경됨";
 "enforcer.appSwitched" = "앱 전환됨";
 "enforcer.focusSettled" = "포커스 안정됨";
 "enforcer.targetChanged" = "대상 변경됨";
+"enforcer.appRuleChanged" = "앱 규칙 변경됨";
+"enforcer.lockedToForApp" = "%@에 잠금됨(%@)";
+"enforcer.changedForApp" = "%@ · %@: %@ -> %@";

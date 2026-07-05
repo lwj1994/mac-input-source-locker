@@ -2,16 +2,39 @@
 "dashboard.status.locked" = "鎖定中";
 "dashboard.status.paused" = "暫停";
 "dashboard.row.globalLock" = "全域鎖定";
+"dashboard.row.appLock" = "App 鎖定";
 "dashboard.row.currentApp" = "目前 App";
 "dashboard.targetUnset" = "未設定";
 "dashboard.unavailable" = "不可用";
+"dashboard.appLockUnset" = "使用全域";
 
 "menu.noTarget" = "無目標";
+"menu.settings" = "設定...";
 "menu.pauseLock" = "暫停鎖定";
 "menu.enableLock" = "啟用鎖定";
+"menu.globalTarget" = "全域目標";
+"menu.currentAppLock" = "目前 App：%@";
+"menu.currentAppUnavailable" = "目前 App 不可用";
+"menu.clearCurrentAppRule" = "清除目前 App 規則";
 "menu.openKeyboardSettings" = "開啟鍵盤設定";
 "menu.quit" = "結束";
 "menu.noSelectableInputSources" = "沒有可選輸入法";
+
+"settings.title" = "InputLocker 設定";
+"settings.section.general" = "一般";
+"settings.section.currentApp" = "目前 App";
+"settings.section.rules" = "App 規則";
+"settings.section.diagnostics" = "診斷";
+"settings.lockEnabled" = "啟用鎖定";
+"settings.defaultInputSource" = "預設輸入法";
+"settings.appInputSource" = "App 輸入法";
+"settings.useGlobalTarget" = "使用全域目標";
+"settings.noCurrentApp" = "沒有可控制的目前 App。";
+"settings.noAppRules" = "尚無 App 規則。";
+"settings.exportLogs" = "匯出日誌";
+"settings.exportingLogs" = "正在匯出日誌...";
+"settings.exportLogsDone" = "已匯出到 %@。";
+"settings.exportLogsFailed" = "匯出失敗：%@";
 
 "status.tooltip.locked" = "InputLocker：%@";
 "status.tooltip.paused" = "InputLocker：已暫停";
@@ -25,7 +48,10 @@
 "enforcer.currentInputSourceUnavailable" = "目前輸入法不可用";
 "enforcer.lockedTo" = "已鎖定為 %@";
 "enforcer.changed" = "%@：%@ -> %@";
-"enforcer.periodicCheck" = "定期檢查";
+"enforcer.inputSourceChanged" = "輸入法已變化";
 "enforcer.appSwitched" = "App 已切換";
 "enforcer.focusSettled" = "焦點已穩定";
 "enforcer.targetChanged" = "目標已變更";
+"enforcer.appRuleChanged" = "App 規則已變更";
+"enforcer.lockedToForApp" = "已鎖定為 %@（%@）";
+"enforcer.changedForApp" = "%@ · %@：%@ -> %@";

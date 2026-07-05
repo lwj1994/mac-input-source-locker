@@ -4,6 +4,16 @@ English | [简体中文](CHANGELOG.zh-CN.md)
 
 All notable changes to InputLocker are documented in this file.
 
+## 1.1.0 - 2026-07-05
+
+- Removed the VIP / StoreKit gating paths so all locking features are available directly.
+- Added AppleViewModel-backed app state for the menu bar controller and settings window.
+- Added per-app input source rules in the menu and settings UI.
+- Reworked enforcement around input source change events with bounded reconcile retries instead of periodic polling.
+- Added floating launcher handling for Spotlight, Raycast, Alfred, and LaunchBar; these floating surfaces now always fall back to the global input source.
+- Added unified logging for enforcement, floating focus detection, app lifecycle, and input source events.
+- Added a diagnostics section in Settings with log export support.
+
 ## 1.0.0 - 2026-07-05
 
 - Updated the app bundle version to `1.0.0`.

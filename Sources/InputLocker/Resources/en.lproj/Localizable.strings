@@ -2,16 +2,39 @@
 "dashboard.status.locked" = "Locked";
 "dashboard.status.paused" = "Paused";
 "dashboard.row.globalLock" = "Global Lock";
+"dashboard.row.appLock" = "App Lock";
 "dashboard.row.currentApp" = "Current App";
 "dashboard.targetUnset" = "Not set";
 "dashboard.unavailable" = "Unavailable";
+"dashboard.appLockUnset" = "Use global";
 
 "menu.noTarget" = "No target";
+"menu.settings" = "Settings...";
 "menu.pauseLock" = "Pause Lock";
 "menu.enableLock" = "Enable Lock";
+"menu.globalTarget" = "Global Target";
+"menu.currentAppLock" = "Current App: %@";
+"menu.currentAppUnavailable" = "Current App unavailable";
+"menu.clearCurrentAppRule" = "Clear Current App Rule";
 "menu.openKeyboardSettings" = "Open Keyboard Settings";
 "menu.quit" = "Quit";
 "menu.noSelectableInputSources" = "No selectable input sources";
+
+"settings.title" = "InputLocker Settings";
+"settings.section.general" = "General";
+"settings.section.currentApp" = "Current App";
+"settings.section.rules" = "App Rules";
+"settings.section.diagnostics" = "Diagnostics";
+"settings.lockEnabled" = "Enable Lock";
+"settings.defaultInputSource" = "Default Input Source";
+"settings.appInputSource" = "App Input Source";
+"settings.useGlobalTarget" = "Use global target";
+"settings.noCurrentApp" = "No controllable current app.";
+"settings.noAppRules" = "No app rules.";
+"settings.exportLogs" = "Export Logs";
+"settings.exportingLogs" = "Exporting logs...";
+"settings.exportLogsDone" = "Exported to %@.";
+"settings.exportLogsFailed" = "Export failed: %@";
 
 "status.tooltip.locked" = "InputLocker: %@";
 "status.tooltip.paused" = "InputLocker: paused";
@@ -25,7 +48,10 @@
 "enforcer.currentInputSourceUnavailable" = "Current input source unavailable";
 "enforcer.lockedTo" = "Locked to %@";
 "enforcer.changed" = "%@: %@ -> %@";
-"enforcer.periodicCheck" = "Periodic check";
+"enforcer.inputSourceChanged" = "Input source changed";
 "enforcer.appSwitched" = "App switched";
 "enforcer.focusSettled" = "Focus settled";
 "enforcer.targetChanged" = "Target changed";
+"enforcer.appRuleChanged" = "App rule changed";
+"enforcer.lockedToForApp" = "Locked to %@ for %@";
+"enforcer.changedForApp" = "%@ · %@: %@ -> %@";
