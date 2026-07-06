@@ -226,7 +226,7 @@ final class StatusMenuController: NSObject, NSMenuDelegate, ViewModelBindingRefr
         }
 
         image.size = Self.menuIconSize
-        image.isTemplate = false
+        image.isTemplate = true
         return image
     }
 
@@ -244,7 +244,7 @@ final class StatusMenuController: NSObject, NSMenuDelegate, ViewModelBindingRefr
             .flatMap(NSImage.init(contentsOf:))
             ?? NSImage(systemSymbolName: "keyboard", accessibilityDescription: nil)
 
-        return image?.withFixedWhiteTint(size: Self.menuIconSize)
+        return image?.withAdaptiveTemplateTint(size: Self.menuIconSize)
     }
 
     @objc private func toggleLock(_ sender: NSMenuItem) {
@@ -287,15 +287,15 @@ final class StatusMenuController: NSObject, NSMenuDelegate, ViewModelBindingRefr
 }
 
 private extension NSImage {
-    func withFixedWhiteTint(size: NSSize) -> NSImage {
+    func withAdaptiveTemplateTint(size: NSSize) -> NSImage {
         let sourceRect = NSRect(origin: .zero, size: self.size)
         let image = NSImage(size: size, flipped: false) { rect in
-            NSColor.white.setFill()
+            NSColor.black.setFill()
             rect.fill()
             self.draw(in: rect, from: sourceRect, operation: .destinationIn, fraction: 1)
             return true
         }
-        image.isTemplate = false
+        image.isTemplate = true
         return image
     }
 }

@@ -4,6 +4,11 @@ English | [简体中文](CHANGELOG.zh-CN.md)
 
 All notable changes to InputLocker are documented in this file.
 
+## 1.1.1 - 2026-07-06
+
+- Fixed packaged resource bundle discovery so localized strings and menu bar artwork load reliably in release app bundles.
+- Fixed the menu bar status icon tinting so it adapts correctly across light and dark menu bar appearances.
+
 ## 1.1.0 - 2026-07-05
 
 - Removed the VIP / StoreKit gating paths so all locking features are available directly.
