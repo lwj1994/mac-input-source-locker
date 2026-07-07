@@ -4,6 +4,10 @@ English | [简体中文](CHANGELOG.zh-CN.md)
 
 All notable changes to InputLocker are documented in this file.
 
+## 1.1.2 - 2026-07-07
+
+- Fixed menu bar visibility persistence so hiding or showing another menu bar app such as Codex no longer toggles InputLocker.
+
 ## 1.1.1 - 2026-07-06
 
 - Fixed packaged resource bundle discovery so localized strings and menu bar artwork load reliably in release app bundles.

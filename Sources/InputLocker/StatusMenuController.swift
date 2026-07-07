@@ -32,6 +32,7 @@ final class StatusMenuController: NSObject, NSMenuDelegate, ViewModelBindingRefr
     }
 
     private func configureStatusItem() {
+        statusItem.autosaveName = "milu.inputlocker.statusItem"
         menu.delegate = self
         statusItem.menu = menu
         statusItem.button?.imagePosition = .imageOnly
