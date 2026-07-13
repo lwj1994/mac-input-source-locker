@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "apple-view-model": {
+      "source": "lwj1994/apple_view_model",
+      "sourceType": "github",
+      "skillPath": "skills/apple-view-model/SKILL.md",
+      "computedHash": "8de5eb28cb4f5df04258f82e584f0496e6b967f8673277f3d43be38e688d428c"
+    }
+  }
+}
